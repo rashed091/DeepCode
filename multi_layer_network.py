@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # neural network with 5 layers
 #
 # · · · · · · · · · ·          (input data, flattened pixels)       X [batch, 784]   # 784 = 28*28

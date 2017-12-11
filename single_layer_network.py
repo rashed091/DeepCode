@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # neural network with 1 layer of 10 softmax neurons
 #
 # · · · · · · · · · ·       (input data, flattened pixels)       X [batch, 784]        # 784 = 28 * 28
@@ -44,7 +46,7 @@ Y_ = tf.placeholder(tf.float32, [None, 10])
 
 cross_entropy = -tf.reduce_sum(Y_ * tf.log(Y))
 
-is_correct = tf.equal(tf.arg_max(Y, 1), tf.arg_max(Y_, 1))
+is_correct = tf.equal(tf.argmax(Y, 1), tf.argmax(Y_, 1))
 accuracy = tf.reduce_mean(tf.cast(is_correct, tf.float32))
 
 
