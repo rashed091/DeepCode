@@ -5,3 +5,4 @@ pandas
 spacy
 scikit-learn
 jupyter
+matplotlib
