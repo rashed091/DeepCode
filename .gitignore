@@ -1,6 +1,9 @@
 # ide specific
 .idea/
 .vscode/
+prml/
+deep-learning-coursera/
+tensorflow cookbook/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
