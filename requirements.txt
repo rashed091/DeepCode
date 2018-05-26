@@ -1,8 +1,0 @@
-tensorflow-gpu
-numpy
-gensim
-pandas
-spacy
-scikit-learn
-jupyter
-matplotlib
